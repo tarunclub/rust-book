@@ -1,0 +1,17 @@
+struct User {
+	username: String,
+	email: String,
+	sign_in_count: u64,
+	is_active: bool,
+}
+
+fn main() {
+	let user1 = User {
+		email: String::from("tarunk1004@gmail.com"),
+		username: String::from("Tarun"),
+		sign_in_count: 1,
+		is_active: true,
+	};
+
+	println!("{:?}");
+}
