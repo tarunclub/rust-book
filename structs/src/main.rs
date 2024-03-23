@@ -61,6 +61,8 @@ fn main() {
 		height: 20,
 	};
 
+	let rect3 = Rectangle::square(20);
+
 	println!("{}", rect.area());
 
 	println!("{:#?}", rect);
